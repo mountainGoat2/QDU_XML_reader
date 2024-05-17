@@ -1,0 +1,93 @@
+<?xml version="1.0"?><?xml-model href="http://physics.nist.gov/N42/2011/schematron/n42.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><RadInstrumentData xmlns="http://physics.nist.gov/N42/2011/N42" xmlns:mis-n42="http://www.microstepmis.com/N42/756/Extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://physics.nist.gov/N42/2011/N42 n42.xsd http://www.microstepmis.com/N42/756/Extension mis-n42.xsd ">
+  <RadInstrumentInformation id="AirTrackMobile">
+    <RadInstrumentManufacturerName>BSI</RadInstrumentManufacturerName>
+    <RadInstrumentModelName>AirTrack Mobile</RadInstrumentModelName>
+    <RadInstrumentClassCode>Radionuclide Identifier</RadInstrumentClassCode>
+    <RadInstrumentVersion>
+      <RadInstrumentComponentName>Hardware</RadInstrumentComponentName>
+      <RadInstrumentComponentVersion>1.0</RadInstrumentComponentVersion>
+    </RadInstrumentVersion>
+    <mis-n42:AwsId>001</mis-n42:AwsId>
+    <mis-n42:RadInstrumentStateVector>
+      <GeographicPoint>
+        <LatitudeValue>56.9825</LatitudeValue>
+        <LongitudeValue>24.12449</LongitudeValue>
+        <ElevationValue>10.80</ElevationValue>
+      </GeographicPoint>
+    </mis-n42:RadInstrumentStateVector>
+    <mis-n42:MeasurementStatus>0000</mis-n42:MeasurementStatus>
+    <mis-n42:MeasurementFilterNumber>33</mis-n42:MeasurementFilterNumber>
+    <mis-n42:MeasurementFlow>2.9265</mis-n42:MeasurementFlow>
+    <mis-n42:MeasurementDeltaPressure>41.3424</mis-n42:MeasurementDeltaPressure>
+    <mis-n42:MeasurementSampledVolume>0.0975</mis-n42:MeasurementSampledVolume>
+    <mis-n42:MeasurementRecordDateTime>2024-04-25T08:33:36+03:00</mis-n42:MeasurementRecordDateTime>
+  </RadInstrumentInformation>
+  <RadDetectorInformation id="AlphaBeta">
+    <RadDetectorCategoryCode>Alpha</RadDetectorCategoryCode>
+    <RadDetectorKindCode>Other</RadDetectorKindCode>
+    <RadDetectorDescription>Si</RadDetectorDescription>
+  </RadDetectorInformation>
+  <EnergyCalibration id="AlphaBetaEnergy">
+    <CoefficientValues>-1.0040E-3 1.0234E+1 -4.2880E+0</CoefficientValues>
+  </EnergyCalibration>
+  <FWHMCalibration id="AlphaBetaFWHM">
+    <EnergyValues>0</EnergyValues>
+    <FWHMValues>12</FWHMValues>
+  </FWHMCalibration>
+  <RadMeasurement id="AlphaBetaMeasurement">
+    <MeasurementClassCode>Foreground</MeasurementClassCode>
+    <StartDateTime>2024-04-25T11:13:24+03:00</StartDateTime>
+    <RealTimeDuration>PT120.00S</RealTimeDuration>
+    <Spectrum id="AlphaBetaSpectrum" radDetectorInformationReference="AlphaBeta" energyCalibrationReference="AlphaBetaEnergy">
+      <LiveTimeDuration>PT120.00S</LiveTimeDuration>
+      <ChannelData compressionCode="None"> 0 0 0 0 0 0 0 0 0 1 0 1 1 5 4 6 4 5 7 7 8 9 10 7 9 8 5 3 6 7 9 5 4 5 10 8 4 6 4 5 2 3 5 0 1 6 2 1 4 2 1 6 2 2 2 1 3 1 4 1 1 3 5 1 0 0 0 1 0 1 2 1 1 1 0 0 3 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 1 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 1 0 0 3 0 1 0 0 0 0 2 0 0 1 0 2 0 1 0 0 1 1 0 0 0 0 1 0 0 1 0 0 0 1 0 1 1 0 0 0 1 0 1 0 1 0 1 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 1 0 1 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 1 0 0 1 0 0 1 1 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 2 0 0 1 0 0 1 1 1 0 0 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 2 1 2 0 0 0 0 0 0 0 1 0 0 0 2 3 2 2 1 0 0 0 2 0 4 2 0 1 0 1 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ChannelData>
+    </Spectrum>
+  </RadMeasurement>
+  <AnalysisResults radMeasurementReferences="AlphaBetaMeasurement">
+    <AnalysisStartDateTime>2024-04-25T11:13:24+03:00</AnalysisStartDateTime>
+    <NuclideAnalysisResults>
+      <Nuclide>
+        <NuclideIdentifiedIndicator>true</NuclideIdentifiedIndicator>
+        <NuclideName>Alpha</NuclideName>
+        <NuclideActivityValue>0.0122</NuclideActivityValue>
+        <NuclideIDConfidenceUncertaintyValue>0.9545</NuclideIDConfidenceUncertaintyValue>
+        <mis-n42:NuclideExtension>
+          <mis-n42:NuclideConcentration>0.0000</mis-n42:NuclideConcentration>
+          <mis-n42:NuclideConcentrationError>0.0000</mis-n42:NuclideConcentrationError>
+          <mis-n42:NuclideConcentrationAlarm>0</mis-n42:NuclideConcentrationAlarm>
+        </mis-n42:NuclideExtension>
+      </Nuclide>
+      <Nuclide>
+        <NuclideIdentifiedIndicator>true</NuclideIdentifiedIndicator>
+        <NuclideName>Beta</NuclideName>
+        <NuclideActivityValue>7.8847</NuclideActivityValue>
+        <NuclideIDConfidenceUncertaintyValue>0.9545</NuclideIDConfidenceUncertaintyValue>
+        <mis-n42:NuclideExtension>
+          <mis-n42:NuclideConcentration>4.1563</mis-n42:NuclideConcentration>
+          <mis-n42:NuclideConcentrationError>0.8230</mis-n42:NuclideConcentrationError>
+          <mis-n42:NuclideConcentrationAlarm>0</mis-n42:NuclideConcentrationAlarm>
+        </mis-n42:NuclideExtension>
+      </Nuclide>
+      <Nuclide>
+        <NuclideIdentifiedIndicator>true</NuclideIdentifiedIndicator>
+        <NuclideName>Rn-222</NuclideName>
+        <NuclideActivityValue>2.0433</NuclideActivityValue>
+        <NuclideIDConfidenceUncertaintyValue>0.9545</NuclideIDConfidenceUncertaintyValue>
+        <mis-n42:NuclideExtension>
+          <mis-n42:NuclideConcentration>1.0123</mis-n42:NuclideConcentration>
+          <mis-n42:NuclideConcentrationError>0.1889</mis-n42:NuclideConcentrationError>
+        </mis-n42:NuclideExtension>
+      </Nuclide>
+      <Nuclide>
+        <NuclideIdentifiedIndicator>true</NuclideIdentifiedIndicator>
+        <NuclideName>Rn-220</NuclideName>
+        <NuclideActivityValue>0.0000</NuclideActivityValue>
+        <NuclideIDConfidenceUncertaintyValue>0</NuclideIDConfidenceUncertaintyValue>
+        <mis-n42:NuclideExtension>
+          <mis-n42:NuclideConcentration>0.0000</mis-n42:NuclideConcentration>
+          <mis-n42:NuclideConcentrationError>0.0000</mis-n42:NuclideConcentrationError>
+        </mis-n42:NuclideExtension>
+      </Nuclide>
+    </NuclideAnalysisResults>
+  </AnalysisResults>
+</RadInstrumentData>
